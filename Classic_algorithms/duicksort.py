@@ -9,7 +9,8 @@ def quicksort(arr):
                 arr[t]=temp
                 t=t+1
                 if arr[p]==arr[pivot]:
-                    t=arr[pivot]
+                    arr[t]=arr[pivot]
+                    t=t+1
             print arr
             print arr[t]
 

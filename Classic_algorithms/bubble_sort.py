@@ -6,7 +6,7 @@ def bubblesort(arr):
                 temp = arr[b]
                 arr[b]=arr[a]
                 arr[a]=temp
-    print arr
+        print arr
 
 
 
